@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Disabled</key>
+	<true/>
+	<key>Label</key>
+	<string>edu.baylor.bittorrent.transmission-daemon</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/usr/bin/transmission-daemon</string>
+		<string>-w</string>
+		<string>/tmp</string>
+		<string>-a</string>
+		<string>129.62.*.*,127.0.0.1</string>
+		<string>-t</string>
+		<string>-u</string>
+		<string>transmission</string>
+		<string>-v</string>
+		<string>transmission</string>
+	</array>
+	<key>RunAtLoad</key>
+	<true/>
+</dict>
+</plist>
